@@ -20,5 +20,5 @@ const monsterHealthText = document.querySelector("#monsterHealth");
 
 
 function goStore() {
-    
+    console.log("going to store");
 }
