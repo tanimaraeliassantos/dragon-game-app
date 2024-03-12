@@ -28,8 +28,11 @@ button3.onclick = fightDragon;
 function goStore() {
 	const button1 = document.querySelector('#button1');
     button1.innerText = "Buy 10 health (10 gold)";
+    button1.onclick = buyHealth;
     button2.innerText = "Buy weapon (30 gold)";
+    button1.onclick = buyWeapon;
     button3.innerText = "Go to town square";
+    button3.onclick = goTown;
 }
 
 function goCave() {
