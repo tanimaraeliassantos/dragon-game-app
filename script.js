@@ -17,6 +17,7 @@ const goldText = document.querySelector('#goldText');
 const monsterStats = document.querySelector('#monsterStats');
 const monsterSName = document.querySelector('#monsterName');
 const monsterHealthText = document.querySelector('#monsterHealth');
+const weapons = [];
 const locations = [
 	{
 		name: 'town square',
