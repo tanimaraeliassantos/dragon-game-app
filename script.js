@@ -93,10 +93,11 @@ function buyHealth() {
 function buyWeapon() {
 	if (gold >= 30) {
 		gold -= 30;
-		currentWeapon ++;
+		currentWeapon++;
 		goldText.innerText = gold;
 		let newWeapon = weapons[currentWeapon].name;
-		text.innerText = "You now have a  " + newWeapon + ".";
+		text.innerText = 'You now have a  ' + newWeapon + '.';
+		inventory.push(newWeapon);
 	}
 }
 
