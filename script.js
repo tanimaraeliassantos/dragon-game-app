@@ -90,6 +90,10 @@ function buyHealth() {
 	}
 }
 
-function buyWeapon() {}
+function buyWeapon() {
+	if (gold >= 30) {
+		gold -=30;
+	}
+}
 
 function update(location) {}
