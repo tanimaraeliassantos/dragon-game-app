@@ -105,6 +105,8 @@ function goFight() {
 	update(locations[3]);
 	let monsterHealth = monsters[fighting].health;
 	monsterStats.style.display = 'block';
+	monsterSName.innerText = monsters[fighting].name;
+	monsterHealthText.innerText = monsterHealth;
 }
 
 function attack() {}
