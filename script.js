@@ -23,6 +23,11 @@ const weapons = [
 	{ name: 'claw hammer', power: 50 },
 	{ name: 'sword', power: 100 },
 ];
+const monsters = [
+	{ name: 'slime', lelve: 2, health: 15 },
+	{ name: 'fanged beast', lelve: 8, health: 60 },
+	{ name: 'dragon', lelve: 20, health: 300 },
+];
 const locations = [
 	{
 		name: 'town square',
