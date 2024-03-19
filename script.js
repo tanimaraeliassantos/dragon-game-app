@@ -99,13 +99,13 @@ function buyWeapon() {
 			let newWeapon = weapons[currentWeapon].name;
 			text.innerText = 'You now have a  ' + newWeapon + '.';
 			inventory.push(newWeapon);
-			text.innerText += " In your inventory you have: " + inventory;
+			text.innerText += ' In your inventory you have: ' + inventory;
 		} else {
-			text.innerText = "You do not have enough gold to buy a weapon.";
+			text.innerText = 'You do not have enough gold to buy a weapon.';
 		}
 	} else {
-		text.innerText = "You already have the most powerful weapon!";
-		button2.innerText = "Sell weapon for 15 gold";
+		text.innerText = 'You already have the most powerful weapon!';
+		button2.innerText = 'Sell weapon for 15 gold';
 		button2.onclick = sellWeapon;
 	}
 }
@@ -115,9 +115,11 @@ function sellWeapon() {
 		gold += 15;
 		goldText.innerText = gold;
 		let currentWeapon = inventory.shift();
-		text.innerText = "You sold a " + currentWeapon + ".";
+		text.innerText = 'You sold a ' + currentWeapon + '.';
+		text.innerText = ' In your inventory you have: ' + inventory;
+	} else {
+		text.innerText = "Don't sell your only weapon!";
 	}
-
 }
 
 function update(location) {}
