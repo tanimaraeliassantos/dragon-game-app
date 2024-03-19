@@ -97,6 +97,10 @@ function fightDragon() {
 
 function goFight() {}
 
+function attack() {}
+
+function dodge() {}
+
 function buyHealth() {
 	if (fold >= 10) {
 		gold -= 10;
