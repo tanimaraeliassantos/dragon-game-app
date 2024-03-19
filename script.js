@@ -104,6 +104,7 @@ function fightDragon() {
 function goFight() {
 	update(locations[3]);
 	let monsterHealth = monsters[fighting].health;
+	monsterStats.style.display = 'block';
 }
 
 function attack() {}
