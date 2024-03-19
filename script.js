@@ -79,9 +79,17 @@ function goStore() {
 function goCave() {
 	update(locations[2]);
 }
+function fightSlime() {
+	fighting = 0;
+	goFight();
+}
 
 function fightDragon() {
 	console.log('Fighting dragon.');
+}
+
+function goFight() {
+
 }
 
 function buyHealth() {
