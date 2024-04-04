@@ -84,6 +84,12 @@ const locations = [
 		'button functions': [restart, restart, restart],
 		text: 'You die. &#x2620;',
 	},
+	{
+		name: 'win',
+		'button text': ['REPLAY?', 'REPLAY?', 'REPLAY?'],
+		'button functions': [restart, restart, restart],
+		text: 'YOU WIN THE GAME! &#X1F389;',
+	},
 ];
 
 // initialize buttons
@@ -218,7 +224,7 @@ function lose() {
 }
 
 function winGame() {
-	update(locations[6])
+	update(locations[6]);
 }
 
 function restart() {
