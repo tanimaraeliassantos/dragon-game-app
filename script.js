@@ -90,6 +90,12 @@ const locations = [
 		'button functions': [restart, restart, restart],
 		text: 'YOU WIN THE GAME! &#X1F389;',
 	},
+	{
+		name: 'easter egg',
+		'button text': ['2', '8', 'Go to town square?'],
+		'button functions': [pickTwo, pickEight, goTown],
+		text: 'You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!',
+	},
 ];
 
 // initialize buttons
