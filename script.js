@@ -212,7 +212,7 @@ function attack() {
 	}
 
 	if (Math.random() <= 0.1 && inventory.length !== 1) {
-		text.innerText += " Your " + inventory.pop() + " breaks.";
+		text.innerText += ' Your ' + inventory.pop() + ' breaks.';
 		currentWeapon--;
 	}
 }
@@ -257,4 +257,8 @@ function restart() {
 
 function isMonsterHit() {
 	return Math.random() > 0.2 || health < 20;
+}
+
+function easterEgg() {
+	update(locations[7]);
 }
